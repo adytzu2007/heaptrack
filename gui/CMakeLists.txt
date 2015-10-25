@@ -9,7 +9,7 @@ include(KDECMakeSettings)
 include(KDECompilerSettings)
 include(ECMAddTests)
 
-include_directories(${CMAKE_CURRENT_BINARY_DIR})
+include_directories(${CMAKE_CURRENT_BINARY_DIR} /usr/include/KF5)
 
 add_executable(heaptrack_gui
     gui.cpp
